@@ -42,7 +42,40 @@ header .container p {
 
 .new-arrival-wrap {
   width: 960px;
-  display: flex;
-  align-items: center;
   border: 2px white solid;
+}
+
+.new-arrival {
+  width: 20rem;
+  height: 12rem;
+  margin-top: 9rem;
+  background-color: black;
+}
+
+.text {
+  font-weight: bold;
+  color: white;
+  padding-left: 3rem;
+}
+
+.new {
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+}
+
+.sport {
+  font-size: 2rem;
+}
+
+nav {
+  height: 2.5rem;
+  width: 100%;
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav p {
+  color: white;
 }
