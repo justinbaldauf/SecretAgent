@@ -90,7 +90,8 @@ nav p {
   height: 30rem;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   border: 2px black solid;
 }
 
@@ -135,4 +136,13 @@ nav p {
 
 .product-name p {
   color: white;
+}
+
+.info-wrap {
+  margin-top: 3rem;
+  width: 960px;
+  height: 4rem;
+  border: 1px black dotted;
+  display: flex;
+  justify-content: space-between;
 }
