@@ -181,3 +181,16 @@ footer .container {
 footer p {
   color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+  .new {
+    font-size: 0.75rem;
+  }
+
+  .sport {
+    font-size: 1.5rem;
+  }
+
+  .nav-wrap {
+  }
+}
