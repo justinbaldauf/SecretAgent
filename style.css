@@ -78,7 +78,20 @@ nav {
 .nav-wrap {
   width: 960px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-screen {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-row {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -122,7 +135,7 @@ nav p {
   height: 9rem;
 }
 
-#glasses {
+.glasses img {
   height: 5rem;
 }
 
@@ -191,6 +204,22 @@ footer p {
     font-size: 1.5rem;
   }
 
-  .nav-wrap {
+  nav .full-screen {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  nav .mobile {
+    display: none;
   }
 }
