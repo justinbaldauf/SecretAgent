@@ -7,9 +7,6 @@ header {
   height: 2.32rem;
   width: 100%;
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
@@ -77,9 +74,6 @@ nav {
 
 .nav-wrap {
   width: 960px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .full-screen {
@@ -126,9 +120,6 @@ nav p {
 .box {
   height: 13rem;
   border: 4px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .box img {
@@ -142,9 +133,6 @@ nav p {
 .product-name {
   height: 2rem;
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .product-name p {
@@ -182,9 +170,6 @@ footer {
   height: 5rem;
   width: 100%;
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 footer .container {
