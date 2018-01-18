@@ -214,6 +214,10 @@ nav .mobile {
   .glasses {
     display: none;
   }
+
+  .info-wrap {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -259,5 +263,26 @@ nav .mobile {
 
   .watch {
     display: none;
+  }
+
+  .info-wrap {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info-container {
+    width: 100%;
+  }
+
+  .hours {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: center;
   }
 }
