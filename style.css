@@ -203,11 +203,61 @@ nav .mobile {
     align-items: center;
   }
 
+  .products-wrap {
+    width: 100%;
+  }
+
   .product {
     width: 47%;
   }
 
   .glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  .new-arrival-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .new-arrival {
+    width: 100%;
+    margin-top: 10rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new {
+    font-size: 0.77rem;
+    padding-top: 1rem;
+  }
+
+  .sport {
+    font-size: 1rem;
+  }
+
+  .text {
+    padding-left: 2rem;
+  }
+
+  .background {
+    height: 15rem;
+  }
+
+  .products-wrap {
+    justify-content: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .watch {
     display: none;
   }
 }
